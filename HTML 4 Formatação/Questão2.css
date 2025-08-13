@@ -1,0 +1,38 @@
+body.fundo-azul-claro {
+    background-color: lightblue;
+}
+
+.paragrafo-verde-claro {
+    background-color: lightgreen;
+}
+
+.imagem-repetir {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/60/Batman_in_Justice_League_TV_series.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.imagem-repetir-vertical {
+    background-image: url("https://super.abril.com.br/wp-content/uploads/2024/12/2412-Sonic-layout_site.jpg?quality=70&strip=info&w=1024&h=682&crop=1");
+    background-repeat: repeat-y;
+}
+
+.imagem-nao-repetir {
+    background-image: url("https://www.shutterstock.com/shutterstock/photos/2327536179/display_1500/stock-vector-son-goku-or-goku-in-dragon-ball-created-on-july-in-cirebon-west-java-indonesia-2327536179.jpg");
+    background-repeat: no-repeat;
+}
+
+.imagem-centralizada {
+    background-image: url("https://recreio.com.br/wp-content/uploads/legacy/2021/05/21/flash-1229898.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fundo-completo {
+    background-color: yellow;
+    background-image: url("https://img.odcdn.com.br/wp-content/uploads/2023/01/Destaque-foguete.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
