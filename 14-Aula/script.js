@@ -60,12 +60,13 @@
 // console.log(frutas);
 
 
-var aluno = []
 
-for(i=0; i>4; i++){
-    aluno[i] = prompt("Digite o nome do aluno: ")
-}
 
-for(i=1; i>4; i++){
-    console.log(aluno[i])
-}
+
+//array.includes(valor, posiçãoInicial), 
+// valor = valor buscado, 
+// posiçãoInicial = a partir de qual posição no array ele deve começar a buscar
+//Exemplo:
+var numeros = [1,2,3,4,5]
+console.log (numeros.includes(0));
+
