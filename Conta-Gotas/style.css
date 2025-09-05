@@ -1,21 +1,168 @@
-body{
-background-color: #2298e1
+/* Configuração Geral */
+body {
+    font-family: "Trebuchet MS", sans-serif;
+    margin: 0;
+    background: #ffffff;
+    color: #737373;
 }
 
-
+h3, h4, h2 {
+    color: #000;
+}
 
 header {
-  position: sticky;
-  top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0a4b73;
+    padding: 10px 30px;
 }
 
-#navegacao {
-  background-color: #0a4b73;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  color: white;
-  padding: 15px;
-  font-size: 30px;
-  overflow: hidden;
+header .logo img {
+    height: 60px;
+    background-color: #ffffff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    background: #ffffff;
+    padding: 6px 15px;
+    border-radius: 4px;
+}
+
+/* HOME - seção vídeo e login */
+.top-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: #3bacd9;
+}
+
+.video, .login-social {
+    background: #ffffff;
+    padding: 15px;
+    width: 40%;
+    border-radius: 5px;
+}
+
+.social-icons img {
+    width: 400px;
+    margin: 20px;
+}
+
+.login-box input {
+    display: block;
+    width: 90%;
+    margin: 5px auto;
+    padding: 8px;
+}
+
+.login-box button {
+    background: #4fce2d;
+    border: none;
+    padding: 10px 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* Apoio */
+.apoio {
+    text-align: center;
+    padding: 20px;
+    background: #0a4b73;
+    color: #000;
+}
+
+.apoio-logos img {
+    margin: 10px;
+    height: 40px;
+    background-color: #ffffff;
+}
+
+/* Página Como Economizar */
+.economizar {
+    padding: 20px;
+    background: #3bacd9 ;
+}
+
+.dicas{
+    background-color: #d8d8d8;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.card {
+    background: #ffffff;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    line-height: 40px;
+}
+
+#cinza{
+background-color: #d8d8d8;
+} 
+
+
+
+
+
+
+
+/* .dicas {
+    background-color: #d8d8d8;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.card {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#cinza{
+background-color: #d8d8d8;
+} */
+
+/* Rodapé */
+footer {
+    display: flex;
+    justify-content: space-around;
+    background: #2298e1;
+    color: #000;
+    padding: 20px;
+}
+
+.footer-box {
+    width: 30%;
+    background-color: #ffffff;
+}
+
+#footer2{
+  display: flex;
+    justify-content: space-around;
+    background: #0a4b73;
+    color: #000;
+    padding: 20px;
 }
